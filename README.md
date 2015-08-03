@@ -10,12 +10,12 @@ Project for ramp up a VM running [Jekyll](http://jekyllrb.com/) from scratch usi
 
 ### Folder structure ###
 
- - Project Root
- |- Vagrantfile
- |- modules
- |- manifest
- |- (other vagrant + puppet project files)
- |- Jekyll_Project_1
+- Project Root
+ - Vagrantfile
+ - modules
+ - manifest
+ - (other vagrant + puppet project files)
+ - Jekyll_Project_1
 
 ### Usage ###
 
@@ -25,7 +25,7 @@ Project for ramp up a VM running [Jekyll](http://jekyllrb.com/) from scratch usi
 + Then, *jekyll serve --watch*
 + View your website at (http://localhost:14000)
 
-** Alternatively ** 
+**Alternatively** 
 
 Set the variable *project_path* (project path, relative to your Vagrant project root directory, example: "Jekyll_Project_1"), and all you need to do is execute "vagrant up" on the project root directory.
 
