@@ -10,24 +10,24 @@ Project for ramp up a VM running [Jekyll](http://jekyllrb.com/) from scratch usi
 
 ### Folder structure ###
 
-- Project Root
-	- Vagrantfile
-	- modules
-	- manifest
-	- (other vagrant + puppet project files)
-	- Jekyll_Project_1
+ - Project Root
+ |- Vagrantfile
+ |- modules
+ |- manifest
+ |- (other vagrant + puppet project files)
+ |- Jekyll_Project_1
 
 ### Usage ###
 
-# Go to the terminal and execute "vagrant up" on the project root directory
-# Execute "vagrant ssh"
-# _Cd_ into the folder where your Jekyll website is stored.
-# Then, _jekyll serve --watch_
-# View your website at (http://localhost:14000)
++ Go to the terminal and execute "vagrant up" on the project root directory
++ Execute "vagrant ssh"
++ *Cd* into the folder where your Jekyll website is stored.
++ Then, *jekyll serve --watch*
++ View your website at (http://localhost:14000)
 
-*Alternatively* 
+** Alternatively ** 
 
-Set the variable _project_path_ (project path, relative to your Vagrant project root directory, example: "Jekyll_Project_1"), and all you need to do is execute "vagrant up" on the project root directory.
+Set the variable *project_path* (project path, relative to your Vagrant project root directory, example: "Jekyll_Project_1"), and all you need to do is execute "vagrant up" on the project root directory.
 
 #### VM Exposed Ports #####
 
