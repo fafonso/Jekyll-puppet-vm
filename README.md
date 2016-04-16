@@ -22,7 +22,7 @@ Project for ramp up a VM running [Jekyll](http://jekyllrb.com/) from scratch usi
 + Go to the terminal and execute "vagrant up" on the project root directory
 + Execute "vagrant ssh"
 + *Cd* into the folder where your Jekyll website is stored.
-+ Then, *jekyll serve --watch*
++ Then, *jekyll serve -H 0.0.0.0*
 + View your website at (http://localhost:14000)
 
 **Alternatively** 
