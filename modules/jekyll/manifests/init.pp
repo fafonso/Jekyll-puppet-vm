@@ -50,7 +50,7 @@ class jekyll(
     $jekyll_project_path = "/vagrant${project_path}"
 
     exec {"run-jekyll":
-      command => "jekyll serve --detach -H 0.0.0.0",
+      command => "jekyll serve --detach --watch -H 0.0.0.0",
       cwd     => $jekyll_project_path,
       path    => ["/usr/bin", "/bin", "/usr/local/bin"],
       require => Package["github-pages"],
